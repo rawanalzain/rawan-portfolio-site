@@ -49,38 +49,44 @@ a {
     color: var(--gold) !important;
 }
 
-/* Hero Section */
+/* Hero Section - FIXED */
 .hero-section {
-    height: 100vh;
+    height: 100vh; /* Full screen height */
     position: relative;
-    overflow: hidden; /* Cuts off any video parts that stick out */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-/* The Video Itself */
+/* The Video Background */
 .hero-video {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ensures video fills screen without stretching */
-    z-index: 0;
+    object-fit: cover;
+    z-index: 0 !important; /* Forces video to back */
 }
 
-/* The Dark Tint */
+/* The Dark Overlay */
 .hero-overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.6); /* Adjust 0.6 to make it darker/lighter */
-    z-index: 1;
+    background: rgba(0, 0, 0, 0.5); /* 50% dark tint */
+    z-index: 1 !important;
 }
 
 /* The Text Layer */
 .content-layer {
-    z-index: 2; /* Ensures text sits on TOP of the video */
+    position: relative;
+    z-index: 10 !important; /* Forces text to front */
+    color: #ffffff; /* Forces text white */
+    width: 100%; /* Ensures centering works */
 }
 
 /* Buttons */
