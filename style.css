@@ -94,6 +94,11 @@ a {
     width: 100%;
     color: #ffffff !important;
 }
+/* Style for the Arabic PNG Logo */
+.header-logo {
+    max-width: 80%; /* Limits size on large screens */
+    height: auto;
+}
 
 /* Buttons */
 .btn-gold {
