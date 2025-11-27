@@ -1,12 +1,14 @@
 /* General Styling */
+/* General Styling */
 body {
     background-color: #121212;
     color: #ffffff;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Space Grotesk', sans-serif; /* New Body Font */
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Syne', sans-serif; /* New Heading Font */
+    text-transform: lowercase; /* Optional: Makes headers trendy lowercase like your name */
 }
 
 a {
