@@ -1,5 +1,4 @@
 /* General Styling */
-/* General Styling */
 body {
     background-color: #121212;
     color: #ffffff;
@@ -8,7 +7,7 @@ body {
 
 h1, h2, h3, h4, h5 {
     font-family: 'Syne', sans-serif; /* New Heading Font */
-    text-transform: lowercase; /* Optional: Makes headers trendy lowercase like your name */
+    text-transform: lowercase; /* Makes headers trendy lowercase like your name */
 }
 
 a {
@@ -18,7 +17,7 @@ a {
 
 /* Color Variables */
 :root {
-    --gold: #BB86FC;
+    --gold: #9D00FF; /* ELECTRIC PURPLE */
     --dark: #121212;
     --darker: #0a0a0a;
     --grey: #2c2c2c;
