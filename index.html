@@ -9,69 +9,40 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="bg-darker">
 
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">rawan alzain</a>
+            <a class="navbar-brand" href="index.html">rawan alzain</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-               <div class="collapse navbar-collapse" id="navbarNav">
-<ul class="navbar-nav ms-auto align-items-center">
-    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-    <li class="nav-item"><a class="nav-link" href="experience.html">Experience</a></li>
-    <li class="nav-item"><a class="nav-link" href="speaking.html">Speaking</a></li>
-    
-    <li class="nav-item"><a class="nav-link" href="#playlist">Ride with Rawan</a></li>
-    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-    
-    <li class="nav-item ms-3" id="login-container">
-        <div class="dropdown">
-            <button class="btn btn-gold btn-sm fw-bold px-3" type="button" id="authBtn" data-bs-toggle="dropdown">
-                Login / Sign Up
-            </button>
-            <ul class="dropdown-menu dropdown-menu-end bg-dark border-secondary">
-                <li><h6 class="dropdown-header text-muted">Access your account</h6></li>
-                <li><a class="dropdown-item text-white" href="#" id="googleLogin">Continue with Google</a></li>
-                <li><a class="dropdown-item text-white" href="#" id="microsoftLogin">Continue with Microsoft</a></li>
-            </ul>
-        </div>
-    </li>
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="experience.html">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="speaking.html">Speaking</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#playlist">Ride with Rawan</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    
+                    <li class="nav-item ms-3" id="login-container">
+                        <div class="dropdown">
+                            <button class="btn btn-gold btn-sm fw-bold px-3" type="button" id="authBtn" data-bs-toggle="dropdown">
+                                Login / Sign Up
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end bg-dark border-secondary">
+                                <li><h6 class="dropdown-header text-muted">Access your account</h6></li>
+                                <li><a class="dropdown-item text-white" href="#" id="googleLogin">Continue with Google</a></li>
+                                <li><a class="dropdown-item text-white" href="#" id="microsoftLogin">Continue with Microsoft</a></li>
+                            </ul>
+                        </div>
+                    </li>
 
-    <li class="nav-item ms-3 d-none" id="user-container">
-        <span class="text-white me-2" id="user-name"></span>
-        <button class="btn btn-outline-light btn-sm" id="logoutBtn">Logout</button>
-    </li>
-</ul>
-        </div>
-    </li>
-
-    <li class="nav-item ms-3 d-none" id="user-container">
-        <span class="text-white me-2" id="user-name"></span>
-        <button class="btn btn-outline-light btn-sm" id="logoutBtn">Logout</button>
-    </li>
-</ul>
-<li class="nav-item ms-3" id="login-container">
-        <div class="dropdown">
-           <button class="btn btn-gold btn-sm fw-bold px-3" type="button" id="authBtn" data-bs-toggle="dropdown">
-    Login / Sign Up
-</button>
-            <ul class="dropdown-menu dropdown-menu-end bg-dark border-secondary">
-                <li><h6 class="dropdown-header text-muted">Access your account</h6></li>
-                <li><a class="dropdown-item text-white" href="#" id="googleLogin">Continue with Google</a></li>
-                <li><a class="dropdown-item text-white" href="#" id="microsoftLogin">Continue with Microsoft</a></li>
-            </ul>
-        </div>
-    </li>
-
-    <li class="nav-item ms-3 d-none" id="user-container">
-        <span class="text-white me-2" id="user-name"></span>
-        <button class="btn btn-outline-light btn-sm" id="logoutBtn">Logout</button>
-    </li>
-</ul>
-</div>
+                    <li class="nav-item ms-3 d-none" id="user-container">
+                        <span class="text-white me-2" id="user-name"></span>
+                        <button class="btn btn-outline-light btn-sm" id="logoutBtn">Logout</button>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
@@ -87,12 +58,12 @@
             <img src="arabic-logo.png" alt="Rawan Alzain Arabic Logo" class="img-fluid mb-4 header-logo">
             <div class="d-flex justify-content-center gap-3">
                 <a href="#contact" class="btn btn-gold">Get in Touch</a>
-                <a href="#experience" class="btn btn-outline-light">View Portfolio</a>
+                <a href="experience.html" class="btn btn-outline-light">View Portfolio</a>
             </div>
         </div>
     </header>
 
-   <section class="visual-stack">
+    <section class="visual-stack">
         <video autoplay muted loop playsinline>
             <source src="visual-2.mp4" type="video/mp4">
         </video>
@@ -103,25 +74,20 @@
             <source src="visual-3.mp4" type="video/mp4">
         </video>
     </section>
-        <section id="playlist" class="py-5 bg-darker">
+    
+    <section id="playlist" class="py-5 bg-darker">
         <div class="container py-5 text-center">
-            <h2 class="section-title mb-4">rawan RECOMMENDS</h2>
-            <p class="lead text-muted mb-5">Want to help me create a special playlist for you? Tailored for Spotify, Apple Music, or Anghami.</p>
+            <h2 class="section-title mb-4">Ride with Rawan</h2>
+            <p class="lead text-muted mb-5">Answer a few questions to generate a personalized playlist from Rawan, tailored for Spotify, Apple Music, or Anghami.</p>
 
             <div class="quiz-container">
-                <p>
-                    [EMBED CODE GOES HERE: This will be replaced by your quiz platform's iFrame code.]
-                </p>
+                <p> [EMBED CODE GOES HERE: This will be replaced by your quiz platform's iFrame code.] </p>
                 <a href="[YOUR QUIZ LINK HERE]" target="_blank" class="btn btn-gold btn-lg mt-4">Start the Quiz</a>
             </div>
         </div>
     </section>
 
     <footer id="contact" class="py-5 bg-darker text-center">
-    ... (rest of your footer code)
-    </section>
-
-  <footer id="contact" class="py-5 bg-darker text-center">
         <div class="container">
             <h2 class="mb-4">COME CONNECT</h2>
             <p class="mb-4">Available for UAE-based cultural initiatives, mentorship programs, and cross-border collaborations.</p>
@@ -137,7 +103,6 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
     <script type="module" src="auth.js"></script>
 </body>
 </html>
