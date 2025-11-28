@@ -166,3 +166,18 @@ a {
     left: 50%;
     transform: translateX(-50%);
 }
+/* Full Screen Video Blocks */
+.visual-stack {
+    height: 100vh; /* Takes up full screen height */
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid #333; /* Subtle separator */
+}
+
+.visual-stack video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures video fills screen without stretching */
+    display: block;
+}
