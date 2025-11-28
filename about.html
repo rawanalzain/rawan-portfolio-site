@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Rawan Alzain</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600&family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-darker">
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">rawan alzain</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="experience.html">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="speaking.html">Speaking</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#playlist">Ride with Rawan</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    
+                    <li class="nav-item ms-3" id="login-container">
+                        <div class="dropdown">
+                            <button class="btn btn-gold btn-sm fw-bold px-3" type="button" id="authBtn" data-bs-toggle="dropdown">
+                                Login / Sign Up
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end bg-dark border-secondary">
+                                <li><h6 class="dropdown-header text-muted">Access your account</h6></li>
+                                <li><a class="dropdown-item text-white" href="#" id="googleLogin">Continue with Google</a></li>
+                                <li><a class="dropdown-item text-white" href="#" id="microsoftLogin">Continue with Microsoft</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="nav-item ms-3 d-none" id="user-container">
+                        <span class="text-white me-2" id="user-name"></span>
+                        <button class="btn btn-outline-light btn-sm" id="logoutBtn">Logout</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="py-5 mt-5">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img src="about.jpg" alt="Rawan Alzain" class="img-fluid rounded shadow-lg profile-img">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="section-title mb-4">About Rawan</h2>
+                    <p class="lead text-gold">Bridging the worlds of creative expression and social impact.</p>
+                    <p>Rawan Alzain is a Dubai-based presenter, DJ, and cultural facilitator whose work spans radio, live events, and voice-over. Active since 2016, she designs audience-centered formats that amplify emerging talent and cross-cultural dialogue.</p>
+                    <p>Recognized as Sudan's first female DJ and a trained medical doctor, Rawan brings a disciplined, multifaceted perspective to the media landscape. Her contributions have been recognized by the Clinton Global Initiative (NYC) and Art, Design & Audio Connect (Abu Dhabi).</p>
+                    <div class="mt-4">
+                        <span class="badge bg-gold me-2">Radio Broadcasting</span>
+                        <span class="badge bg-gold me-2">Event Hosting (MC)</span>
+                        <span class="badge bg-gold me-2">Cultural Policy</span>
+                        <span class="badge bg-gold">Music Curation</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="py-5 bg-darker text-center border-top border-secondary">
+        <div class="container">
+            <h2 class="mb-4">COME CONNECT</h2>
+            <p class="mb-4">Available for UAE-based cultural initiatives, mentorship programs, and cross-border collaborations.</p>
+            <a href="mailto:hello@rawanalzain.com" class="btn btn-gold btn-lg mb-5">SEND AN EMAIL</a>
+            <div class="social-links">
+                <a href="https://www.instagram.com/rawanalzain/" target="_blank" class="text-white mx-3"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="https://www.linkedin.com/in/rawan-alzain-0ab66b145" target="_blank" class="text-white mx-3"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="https://www.tiktok.com/@rawan.alzain" target="_blank" class="text-white mx-3"><i class="fab fa-tiktok fa-2x"></i></a>
+            </div>
+            <p class="mt-5 text-muted small">&copy; 2025 Rawan Alzain. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="auth.js"></script>
+</body>
+</html>
