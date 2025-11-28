@@ -19,13 +19,30 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
-        <li class="nav-item"><a class="nav-link" href="#speaking">Speaking</a></li>
-        <li class="nav-item"><a class="nav-link" href="#playlist">Ride with RAWAN</a></li>
-        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-    </ul>
+ <ul class="navbar-nav ms-auto align-items-center">
+    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+    <li class="nav-item"><a class="nav-link" href="#speaking">Speaking</a></li>
+    <li class="nav-item"><a class="nav-link" href="#playlist">Ride with Rawan</a></li>
+    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+    
+    <li class="nav-item ms-3" id="login-container">
+        <div class="dropdown">
+            <button class="btn btn-gold btn-sm dropdown-toggle" type="button" id="authBtn" data-bs-toggle="dropdown">
+                Login
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end bg-dark border-secondary">
+                <li><a class="dropdown-item text-white" href="#" id="googleLogin">Login with Google</a></li>
+                <li><a class="dropdown-item text-white" href="#" id="microsoftLogin">Login with Microsoft</a></li>
+            </ul>
+        </div>
+    </li>
+
+    <li class="nav-item ms-3 d-none" id="user-container">
+        <span class="text-white me-2" id="user-name"></span>
+        <button class="btn btn-outline-light btn-sm" id="logoutBtn">Logout</button>
+    </li>
+</ul>
 </div>
             </div>
         </div>
